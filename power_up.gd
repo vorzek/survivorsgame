@@ -8,3 +8,5 @@ func _physics_process(delta):
 		queue_free()
 		number_of_powerups += 1
 
+func how_many_powerups():
+	print("func works")
